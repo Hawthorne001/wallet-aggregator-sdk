@@ -34,7 +34,7 @@
     "@ethersproject/abstract-provider": "^5.7.0",
     "@ethersproject/bytes": "^5.7.0",
     "@ethersproject/providers": "^5.7.2",
-    "@wagmi/core": "^1.4.13",
+    "@wagmi/core": "^2.0.1",
     "@web3modal/standalone": "^2.2.1",
     "@xlabs-libs/wallet-aggregator-core": "workspace:^",
     "ethers": "^5.7.2",
