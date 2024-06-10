@@ -33,9 +33,9 @@
   "dependencies": {
     "@injectivelabs/chain-api": "1.9.24",
     "@injectivelabs/networks": "1.14.4",
-    "@injectivelabs/sdk-ts": "1.14.4",
+    "@injectivelabs/sdk-ts": "1.14.11",
     "@injectivelabs/ts-types": "1.14.4",
-    "@injectivelabs/wallet-ts": "1.14.4",
+    "@injectivelabs/wallet-ts": "1.14.11",
     "@xlabs-libs/wallet-aggregator-core": "workspace:^"
   }
 }
