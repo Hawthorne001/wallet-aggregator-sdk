@@ -31,8 +31,8 @@
   },
   "dependencies": {
     "@kunalabs-io/sui-snap-wallet": "^0.4.2",
-    "@mysten/sui.js": "^0.32.2",
-    "@mysten/wallet-standard": "^0.5.4",
+    "@mysten/sui.js": "^0.35.0",
+    "@mysten/wallet-standard": "^0.8.10",
     "@xlabs-libs/wallet-aggregator-core": "workspace:^"
   }
 }
