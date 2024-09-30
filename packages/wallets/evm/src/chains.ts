@@ -96,12 +96,183 @@ export const emeraldTestnet = {
   },
 } as const satisfies Chain;
 
+// https://docs.blast.io/building/network-information
+export const blast = {
+  id: 81457,
+  name: "Blast Mainnet",
+  network: "blast-mainnet",
+  nativeCurrency: { name: "Blast Ethereum", symbol: "ETH", decimals: 18 },
+  rpcUrls: {
+    default: { http: ["https://rpc.blast.io"] },
+    public: { http: ["	https://rpc.blast.io"] },
+  },
+  blockExplorers: {
+    default: {
+      name: "Blast",
+      url: "https://blastscan.io",
+    },
+  },
+} as const satisfies Chain;
+
+export const blastSepolia = {
+  id: 168587773,
+  name: "Blast Sepolia",
+  network: "blast-repolia",
+  nativeCurrency: { name: "Blast Ethereum", symbol: "ETH", decimals: 18 },
+  rpcUrls: {
+    default: { http: ["https://sepolia.blast.io"] },
+    public: { http: ["https://sepolia.blast.io"] },
+  },
+  blockExplorers: {
+    default: {
+      name: "Blast Sepolia Explorer",
+      url: "https://sepolia.blastexplorer.io",
+    },
+  },
+} as const satisfies Chain;
+
+export const scroll = {
+  id: 534_352,
+  name: "Scroll",
+  network: "scroll",
+  nativeCurrency: { name: "Ether", symbol: "ETH", decimals: 18 },
+  rpcUrls: {
+    default: {
+      http: ["https://rpc.ankr.com/scroll"],
+    },
+    public: {
+      http: ["https://rpc.ankr.com/scroll"],
+    },
+  },
+  blockExplorers: {
+    default: {
+      name: "Scrollscan",
+      url: "https://scrollscan.com",
+    },
+  },
+} as const satisfies Chain;
+
+export const scrollSepolia = {
+  id: 534_351,
+  name: "Scroll Sepolia",
+  network: "scroll-sepolia",
+  nativeCurrency: { name: "Ether", symbol: "ETH", decimals: 18 },
+  rpcUrls: {
+    default: {
+      http: ["https://rpc.ankr.com/scroll_sepolia_testnet"],
+    },
+    public: {
+      http: ["https://rpc.ankr.com/scroll_sepolia_testnet"],
+    },
+  },
+  blockExplorers: {
+    default: {
+      name: "Scrollscan",
+      url: "https://sepolia.scrollscan.com",
+    },
+  },
+  testnet: true,
+} as const satisfies Chain;
+
+export const xlayer = {
+  id: 196,
+  name: "X Layer",
+  network: "xlayer-mainnet",
+  nativeCurrency: { name: "OKB", symbol: "OKB", decimals: 18 },
+  rpcUrls: {
+    default: {
+      http: ["https://rpc.xlayer.tech"],
+    },
+    public: {
+      http: ["https://rpc.xlayer.tech"],
+    },
+  },
+  blockExplorers: {
+    default: {
+      name: "X Layer Explorer",
+      url: "https://www.okx.com/web3/explorer/xlayer",
+    },
+  },
+} as const satisfies Chain;
+
+export const xlayerTestnet = {
+  id: 195,
+  name: "X Layer Testnet",
+  network: "xlayer-testnet",
+  nativeCurrency: { name: "OKB", symbol: "OKB", decimals: 18 },
+  rpcUrls: {
+    default: {
+      http: ["https://testrpc.xlayer.tech"],
+    },
+    public: {
+      http: ["https://testrpc.xlayer.tech"],
+    },
+  },
+  blockExplorers: {
+    default: {
+      name: "X Layer Testnet Explorer",
+      url: "https://www.okx.com/web3/explorer/xlayer-test",
+    },
+  },
+  testnet: true,
+} as const satisfies Chain;
+
+export const mantle = {
+  id: 5000,
+  name: "Mantle",
+  network: "mantle",
+  nativeCurrency: { name: "MNT", symbol: "MNT", decimals: 18 },
+  rpcUrls: {
+    default: {
+      http: ["https://rpc.mantle.xyz"],
+    },
+    public: {
+      http: ["https://rpc.mantle.xyz"],
+    },
+  },
+  blockExplorers: {
+    default: {
+      name: "Mantle Explorer",
+      url: "https://explorer.mantle.xyz",
+    },
+  },
+} as const satisfies Chain;
+
+export const mantleTestnet = {
+  id: 5000,
+  name: "Mantle",
+  network: "mantle-testnet",
+  nativeCurrency: { name: "MNT", symbol: "MNT", decimals: 18 },
+  rpcUrls: {
+    default: {
+      http: ["https://rpc.testnet.mantle.xyz"],
+    },
+    public: {
+      http: ["https://rpc.testnet.mantle.xyz"],
+    },
+  },
+  blockExplorers: {
+    default: {
+      name: "Mantle Explorer",
+      url: "https://explorer.testnet.mantle.xyz",
+    },
+  },
+} as const satisfies Chain;
+
 export const DEFAULT_CHAINS: Chain[] = [
   ...Object.values(CHAINS),
   acala,
   acalaTestnet,
+  blast,
+  blastSepolia,
   emerald,
   emeraldTestnet,
   karura,
   karuraTestnet,
+  scroll,
+  scrollSepolia,
+  xlayer,
+  xlayerTestnet,
+  mantle,
+  mantleTestnet,
 ];
