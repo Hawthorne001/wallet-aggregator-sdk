@@ -35,7 +35,7 @@
     "@injectivelabs/networks": "1.14.4",
     "@injectivelabs/sdk-ts": "1.14.4",
     "@injectivelabs/ts-types": "1.14.4",
-    "@injectivelabs/wallet-ts": "1.14.4",
+    "@injectivelabs/wallet-ts": "1.14.11",
     "@xlabs-libs/wallet-aggregator-core": "workspace:^"
   }
 }
