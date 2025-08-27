@@ -32,7 +32,7 @@
   "dependencies": {
     "@xlabs-libs/wallet-aggregator-core": "workspace:^",
     "@xpla/wallet-provider": "^0.3.10",
-    "@xpla/xpla.js": "^0.2.1",
+    "@xpla/xpla.js": "^0.3.2",
     "rxjs": "^7.5.7"
   }
 }
