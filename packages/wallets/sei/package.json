@@ -28,7 +28,7 @@
     "typescript": "^5.3.2"
   },
   "dependencies": {
-    "@sei-js/core": "^3.1.0",
+    "@sei-js/core": "^3.2.1",
     "@xlabs-libs/wallet-aggregator-core": "workspace:^"
   }
 }
